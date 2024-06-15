@@ -1,7 +1,12 @@
-const functions = require("firebase-functions");
+// ESM
+// import * as v2 from "firebase-functions/v2";
+// import admin from "firebase-admin";
+// admin.initializeApp(functions.config().firebase);
 
-const admin = require("firebase-admin");
-admin.initializeApp(functions.config().firebase);
+// CJS
+// const functions = require("firebase-functions");
+// const admin = require("firebase-admin");
+// admin.initializeApp(functions.config().firebase);
 
 // exports.sendMessage = functions.firestore
 //   .document("products/{productId}")
